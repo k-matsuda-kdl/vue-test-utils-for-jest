@@ -1,18 +1,106 @@
-# Vue 3 + TypeScript + Vite
+<a name="readme-top"></a>
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+<!-- PROJECT LOGO -->
+# vue-test-utils-for-jest
+このプロジェクトは、Vuejs 3,Typescriptの環境で、vue-test-utilsをjestで動かすことを目的に、packageや設定ファイルを調整したプロジェクトです。
 
-## Recommended IDE Setup
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>目次</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ol>
+</details>
 
-## Type Support For `.vue` Imports in TS
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
+<!-- ABOUT THE PROJECT -->
+## About The Project
 
-1. Disable the built-in TypeScript Extension
-   1. Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-   2. Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+このプロジェクトは、Vuejs 3,Typescriptの環境で、vue-test-utilsをjestで動かすことを目的に、packageや設定ファイルを調整したプロジェクトです。
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+### Built With
+
+
+* Vuejs 3
+* Typescript
+* jest 29
+* vue-test-utils
+* vite
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- GETTING STARTED -->
+## Getting Started
+
+### Installation
+
+
+```sh
+npm install
+npm run dev
+```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- USAGE EXAMPLES -->
+## Usage
+### Start
+```sh
+npm install
+npm run test
+```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+<!-- CONTRIBUTING -->
+## Contributing
+
+ドキュメントを改善するための提案がある場合は、リポジトリをフォークしてプルリクエストを作成してください。 
+プロジェクトにスターを付けることを忘れないでください。Thanks！
+
+
+1. Forkします。
+2. 自身のリポジトリで Feature Branchを作成 (`git checkout -b feature/AmazingFeature`)
+3. 変更を Commit (`git commit -m 'Add some AmazingFeature'`)
+4. BranchにPush  (`git push origin feature/AmazingFeature`)
+5. このプロジェクトにPull Request してください
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- LICENSE -->
+## License
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
